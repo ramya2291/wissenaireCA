@@ -124,6 +124,7 @@ nav{
    align-items: center; 
    text-align: center;
    gap: 20px;
+   margin-top: 60px;
 }
 .dishead{
    display: flex; 
@@ -432,12 +433,6 @@ nav{
    opacity: 1;
    size: 30px;
 }
-.incen .card.centered p{
-   font-size: larger
-}
-.incen .card:hover p{
-   font-size: larger
-}
 .incen .title {
 width: 100%;
 display: inline-block;
@@ -655,7 +650,7 @@ textarea{
       
    }
    .contact{
-      width:80%;
+      width:100%;
    }
    .info1{
       margin-left: 35px;
@@ -677,5 +672,11 @@ textarea{
    }
    .recard.slideup .image{
       transform: scale(.92);
+   }
+}
+@media (max-width: 500px)
+{
+   .contact h1{
+      font-size: 20px;
    }
 }
